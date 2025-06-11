@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "shabnam";
+  src: local("shabnam"), url("../font/Shabnam-FD.woff2") format("WOFF2");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: shabnam;
+  background-color: #fafafa;
+}
+.container {
+  width: 1000px;
+  margin-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* --------------------------------------------------------------------------- */
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.title-icon {
+  width: 22px;
+  height: 22px;
+  color: #1976d2;
+}
+.title-link {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+/* ---------------------------------------------------- */
+.section-row {
+  display: flex;
+  gap: 24px;
+}
+.product {
+  padding: 24px;
+  width: 100%;
+  /* box-shadow:0 4px 8px 0 rgb(211, 210, 210); */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+}
+.product-img {
+  width: 100%;
+}
+.product-name {
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 14px;
+  line-height: 1.6;
+  height: 94px;
+  color: #212121;
+}
+.product-link {
+  text-decoration: none;
+  color: inherit;
+  /* inherite = parent value */
+}
+/* ********************** */
+.product-offer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-top: 12px;
+}
+.product-offer-percent {
+  color: #1976d2;
+  background-color: #e3f2fd;
+  font-weight: bold;
+  padding: 2px 4px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.product-offer-price {
+  text-decoration: line-through;
+  color: #546e7a;
+}
+/* ********************** */
+
+.product-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+}
+.product-price {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.product-price-number {
+  font-weight: bold;
+  font-size: 18px;
+}
+.product-price-unit {
+  font-size: 14px;
+}
+.product-score {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.product-score-number {
+  font-size: 14px;
+  color: #546e7a;
+}
+.product-score-icon {
+  width: 18px;
+  height: 18px;
+  color: #f1c21b;
+}
